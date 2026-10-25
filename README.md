@@ -18,13 +18,20 @@
 
 ## 📌 Overview
 
-ARP scan, vendor lookup, conflict detection
+
+OVendors is a MAC-address and hardware-vendor intelligence tool that resolves OUI prefixes to manufacturer names using an embedded vendor database. It identifies device makers from MAC addresses, supports bulk lookups and can enrich network inventories with vendor context. It runs offline for fast, authorized asset analysis.
 
 ---
 
 ## ✨ Features
 
-- Local ARP inventory and MAC vendor lookup
+
+- OUI-to-vendor resolution from an embedded manufacturer database
+- Single and bulk MAC-address lookups
+- Vendor enrichment for network inventories and scan results
+- Offline operation with no external API dependency
+- Clear, colour-coded terminal output
+- Structured export of lookup results
 
 ---
 
@@ -37,8 +44,11 @@ ARP scan, vendor lookup, conflict detection
 
 ## 🚀 Usage
 
+
 ```bash
 ./OVendors
+./OVendors --self-test
+./OVendors --help
 ```
 
 ---
